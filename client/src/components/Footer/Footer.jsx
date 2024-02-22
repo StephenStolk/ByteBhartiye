@@ -42,7 +42,7 @@ const Footer = () => {
               className="font-semibold tracking-widest text-2xl sm:text-3xl font-cursive
 "
             >
-              Indila
+              Byte Bhartiye
             </a>
             <p className="font-mono pt-4">
             Search freely and with ease. – Your Perfect
