@@ -8,6 +8,7 @@ import {
 } from "react-icons/md";
 import { motion } from "framer-motion";
 import { fadeIn2, fadeIn4 } from "../Motion/variants";
+import ContactImg from "../../assets/contact.jpg";
 const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -46,7 +47,7 @@ const Contact = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              src="./public/contact.jpg"
+              src={ContactImg}
               className="w-[50%] sm:w-[80%] h-[60%] mx-auto mt-[10%] mb-[10%] sm:mb-0"
               alt="image"
             />
