@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /* eslint-disable no-unused-vars */
 import React from "react";
 import { useState } from "react";
@@ -17,7 +18,7 @@ const Contact = () => {
 
   const collectData = async (e) => {
     e.preventDefault();
-    let result = await fetch("http://localhost:4000/", {
+    let result = await fetch(process.env.MONGO_URL, {
       method: "post",
       body: JSON.stringify({ name, email, feed, customurl }),
       headers: {
