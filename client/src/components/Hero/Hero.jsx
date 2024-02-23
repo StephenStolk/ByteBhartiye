@@ -26,12 +26,12 @@ const Hero = () => {
               
               </h1>
               <div data-aos="fade-up" data-aos-delay="400">
-                <a href="https://youtu.be/tsQYajSWxt0">
+                <a href="https://youtu.be/tsQYajSWxt0" target="blank">
                <button className="bg-gradient-to-r from-primary to-secondary border-2 border-primary hover:scale-105 duration-200 text-white py-3 px-6 rounded-full">
                   How to Setup ?
                 </button>
                </a>
-               <a href="https://youtu.be/hXFjvwvc87s">
+               <a href="https://youtu.be/hXFjvwvc87s" target="blank">
                <button className="bg-gradient-to-r from-primary to-secondary border-2 border-primary hover:scale-105 duration-200 text-white py-3 px-6 ml-[1rem] rounded-full">
                   Working
                 </button>
