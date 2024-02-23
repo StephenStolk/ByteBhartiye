@@ -30,13 +30,13 @@ const AppStore = () => {
               {/* img section */}
               <div className="flex flex-wrap justify-center sm:justify-start items-center">
                <button className="bg-gray-600 py-3 px-5 rounded-xl mr-[1rem] mt-[1rem]">
-               <a href="#" className="text-xl font-serif">
-                  Extension
+               <a href="https://github.com/adityajhakumar/WEBSITE-TRANSLATOR-INDIAN-LANGUAGE" className="text-xl font-serif">
+                  Github
                   </a>
                </button>
                <button className="bg-gray-600 py-3 px-5 rounded-xl mt-[1rem]">
-               <a href="#" className="text-xl font-serif">
-                  Download
+               <a href="https://drive.google.com/drive/folders/1F_BjaonSESlm-9v2SemSiiS0T1d6VqSA" className="text-xl font-serif">
+                  Download Resources
                   </a>
                </button>
               </div>
