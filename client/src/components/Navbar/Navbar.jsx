@@ -58,10 +58,12 @@ const Navbar = () => {
                   </li>
                 ))}
               </ul>
+             <a href="https://drive.google.com/drive/folders/1F_BjaonSESlm-9v2SemSiiS0T1d6VqSA">
               <button className=" bg-primary/70 hover:scale-105 duration-200 text-white px-4 py-2 rounded-full flex items-center gap-3">
-                Get Started
+                Download Resources
                
               </button>
+              </a>
             </div>
           </div>
         </div>
