@@ -112,28 +112,9 @@ const Contact = () => {
                   onChange={(e) => setFeed(e.target.value)}
                 ></input>
               </motion.div>
-              <motion.div
-                variants={fadeIn4(3.2)}
-                initial="hidden"
-                whileInView={"show"}
-                viewport={{ once: false, amount: 0.7 }}
-                className="flex flex-row justify-center items-center mx-auto pb-[2rem]"
-              >
-                <MdOutlineEmail className="m-auto w-[3rem] bg-sky-50 h-[2rem] rounded-xl mr-[1rem]" />
-                <input
-                  type="text"
-                  name="userurl"
-                  id="userurl"
-                  autoComplete="off"
-                  placeholder="Enter your url"
-                  className="outline-none bg-sky-50 border border-spacing-5 w-[25rem] h-[3rem] rounded-xl px-[1rem] shadow-lg active:animate-bounce"
-                  value={customurl}
-                  onChange={(e) => setCustomurl(e.target.value)}
-                ></input>
-              </motion.div>
               <button
                 type="submit"
-                className="bg-orange-400 p-[0.5rem] px-[1rem] rounded-xl hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+                className="flex bg-orange-400 p-[0.5rem] px-[1rem] rounded-xl hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white mx-auto"
               >
                 Submit
               </button>
