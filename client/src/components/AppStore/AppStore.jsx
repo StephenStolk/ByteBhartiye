@@ -15,6 +15,7 @@ const backgroundStyle = {
 const AppStore = () => {
   return (
     <>
+    <span id="appstore"></span>
       <div className="py-14" style={backgroundStyle}>
         <div className="container">
           <div className="grid sm:grid-cols-2 grid-cols-1 items-center gap-4">

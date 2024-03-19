@@ -51,7 +51,7 @@ const Services = () => {
                 data-aos-delay={service.aosDelay}
                 className="rounded-2xl bg-white hover:bg-primary hover:text-white relative shadow-xl duration-high group max-w-[300px]"
               >
-                <div className="h-[122px]">
+                <div className="h-[122px] mt-[2rem] sm:mt-0">
                   <img
                     src={service.img}
                     alt=""

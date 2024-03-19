@@ -1,6 +1,8 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import HeroPng from "../../assets/front1.png";
+import {motion} from 'framer-motion'
+import { fadeIn2 } from "../Motion/variants";
 
 const Hero = () => {
   return (
@@ -25,18 +27,18 @@ const Hero = () => {
                 </span>{" "}
               
               </h1>
-              <div data-aos="fade-up" data-aos-delay="400">
+              <motion.div variants={fadeIn2(2.2)} initial="hidden" whileInView={"show"} viewport={{ once: false, amount: 0.7 }} className="mt-[1rem] flex md:flex-row flex-col items-center">
                 <a href="https://youtu.be/tsQYajSWxt0" target="blank">
-               <button className="bg-gradient-to-r from-primary to-secondary border-2 border-primary hover:scale-105 duration-200 text-white py-3 px-6 rounded-full">
+               <button className="bg-gradient-to-r from-primary to-secondary border-2 border-primary hover:scale-105 duration-200 text-white py-3 px-6 rounded-full w-48">
                   How to Setup ?
                 </button>
                </a>
                <a href="https://youtu.be/hXFjvwvc87s" target="blank">
-               <button className="bg-gradient-to-r from-primary to-secondary border-2 border-primary hover:scale-105 duration-200 text-white py-3 px-6 ml-[1rem] rounded-full">
+               <button className="bg-gradient-to-r from-primary to-secondary border-2 border-primary hover:scale-105 duration-200 text-white py-3 px-6 sm:ml-[1rem] rounded-full w-48 sm:mt-0 mt-[1rem]">
                   Working
                 </button>
                </a>
-              </div>
+              </motion.div>
             </div>
             {/* Image section */}
             <div

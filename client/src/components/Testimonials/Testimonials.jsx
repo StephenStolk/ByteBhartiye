@@ -70,6 +70,8 @@ const Testimonials = () => {
   };
 
   return (
+    <>
+    <span id="testimonials"></span>
     <div className="py-10 mb-10 mt-[5rem]">
       <div className="container">
         {/* header section */}
@@ -117,6 +119,7 @@ const Testimonials = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

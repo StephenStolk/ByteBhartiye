@@ -5,19 +5,9 @@
 @tailwind components;
 @tailwind utilities;
 
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
+@layer body {
+  ::-webkit-scrollbar{
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
-.spin {
-  animation: spin 40s linear infinite;
 }
 
-/* smooth scrolling */
-html {
-  scroll-behavior: smooth;
-}

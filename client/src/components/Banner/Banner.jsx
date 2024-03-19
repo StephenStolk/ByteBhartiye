@@ -21,7 +21,7 @@ const bgImage = {
 const Banner = () => {
   return (
     <>
-      <span id="about"></span>
+      <span id="benefits"></span>
       <div style={bgImage} className="mt-[5rem]">
         <div className="min-h-[550px] flex justify-center items-center py-12 sm:py-0 ">
           <div className="container py-6 mt-5">
@@ -53,7 +53,7 @@ const Banner = () => {
                   <div className="space-y-5">
                     <div data-aos="fade-up" className="flex items-center gap-3">
                       <IoExtensionPuzzle  className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-red-100 " />
-                      <span>Extension</span>
+                      <span>Plug-ins</span>
                     </div>
                     <div
                       data-aos="fade-up"
@@ -61,15 +61,15 @@ const Banner = () => {
                       className="flex items-center gap-3"
                     >
                       <FaRegKeyboard className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-orange-100 " />
-                      <span>Keyboard</span>
+                      <span>Keys</span>
                     </div>
                     <div
                       data-aos="fade-up"
                       data-aos-delay="500"
                       className="flex items-center gap-3"
                     >
-                      <BsFiletypeExe className="text-4xl h-12 w-12 shadow-sm p-3 rounded-full bg-yellow-100" />
-                      <span>Executable apk</span>
+                      <BsFiletypeExe className="text-xl h-12 w-12 shadow-sm p-3 rounded-full bg-yellow-100" />
+                      <span>Apk</span>
                     </div>
                   </div>
                   <div

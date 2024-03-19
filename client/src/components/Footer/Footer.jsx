@@ -32,7 +32,7 @@ const bgImage = {
 };
 const Footer = () => {
   return (
-    <div style={bgImage} className=" text-white">
+    <div style={bgImage} className=" text-white absolute">
       <div className="bg-black/40 min-h-[400px]">
         <div className="container grid md:grid-cols-3 pb-20 pt-5">
           {/* company details */}
